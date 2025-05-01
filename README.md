@@ -1,78 +1,55 @@
-# 🛍️ Alura Store - Análisis de Tiendas
+# 🛍️ Análisis de Desempeño de Tiendas - Alura Store
 
-Proyecto desarrollado como parte del primer desafío de Data Science en Alura Latam.  
-El objetivo principal es asistir al Sr. Juan en la toma de decisiones sobre cuál de las cuatro tiendas de la cadena **Alura Store** debería vender, basándose en un análisis exhaustivo de datos de ventas, desempeño de productos, satisfacción de clientes y costos de envío.
+## 👩‍💻 Autor
+**[Leidy JAzmin Porras Alonso]**
 
----
+## 🎯 Objetivo
+Este proyecto tiene como objetivo identificar cuál de las cuatro tiendas de la cadena **Alura Store** es la menos eficiente, con el fin de recomendar al Sr. Juan cuál debería vender para comenzar un nuevo emprendimiento.
 
-## 📚 Tecnologías utilizadas
-- Python 3
-- Pandas
-- Matplotlib
+Se analizaron datos de ventas, categorías, calificaciones, productos y costos de envío, visualizando los hallazgos mediante gráficos interactivos y estáticos para una mejor toma de decisiones.
 
 ---
 
-## 📈 Progreso del análisis
-
-`Progreso del proyecto: ███████░░░ 70%`
-
-- ✅ Análisis de facturación
-- ✅ Visualización de ingresos por tienda (gráfico de barras)
-- ✅ Visualización de participación de facturación (gráfico de pastel)
-- 🔜 Análisis de reseñas de clientes
-- 🔜 Análisis de categorías más vendidas
-- 🔜 Análisis de productos más vendidos
-- 🔜 Análisis de costo de envío promedio
-- 🔜 Recomendación final respaldada por datos
+## 📊 Tecnologías Usadas
+- Python 🐍
+- Pandas 📑
+- Matplotlib 📈
+- Seaborn 🎨
+- Folium 🌍 (mapas interactivos)
+- Google Colab 💻
 
 ---
 
-## 📊 Resultados actuales
+## 🔍 Análisis Realizado
 
-Hasta el momento, los hallazgos indican:
-- La **Tienda 1** es actualmente la de mayor facturación.
-- La **Tienda 4** presenta los menores ingresos de todas las sucursales.
-- Se han desarrollado gráficos dinámicos para optimizar la presentación y análisis de los datos.
+### 1. Ingresos Totales por Tienda
+Gráfico de barras que muestra la facturación total por tienda. Permite observar cuál genera más y menos ingresos.
 
----
+### 2. Ventas por Categoría
+Distribución de productos vendidos por categoría en cada tienda, comparativa cruzada y por tienda individual.
 
-## 🛠️ Cómo ejecutar el proyecto
+### 3. Calificación Promedio
+Análisis de la satisfacción del cliente por tienda mediante calificación promedio.
 
-1. Clonar el repositorio:
-    ```bash
-    git clone https://github.com/tu_usuario/tu_repositorio.git
-    ```
-2. Abrir el archivo `.ipynb` en Google Colab o Jupyter Notebook.
-3. Ejecutar las celdas en orden, siguiendo el flujo del análisis.
+### 4. Productos Más y Menos Vendidos
+Identificación de los productos con mejor y peor desempeño en cada tienda.
 
----
+### 5. Costo de Envío Promedio
+Costo logístico promedio por tienda, clave para evaluar rentabilidad.
 
-## 📌 Requisitos del desafío cubiertos
-
-- [x] Análisis de ingresos
-- [x] Análisis de reseñas de clientes
-- [x] Análisis de categorías más vendidas
-- [x] Análisis de productos más vendidos
-- [x] Análisis de costo de envío promedio
-- [x] Creación de al menos tres tipos de gráficos
-- [x] Emisión de una recomendación basada en datos
+### 6. Análisis Geográfico (Extra)
+Visualización de ventas y calificaciones en el mapa mediante coordenadas de latitud y longitud.
 
 ---
 
-## ✨ Próximos pasos
-
-- Finalizar el análisis de satisfacción del cliente (calificaciones).
-- Evaluar impacto de los costos de envío en la percepción del cliente.
-- Redactar la recomendación final para el Sr. Juan, basada en datos objetivos.
+## ✅ Conclusiones y Recomendación
+Ver más abajo en la sección "Informe Final".
 
 ---
 
-## 📬 Contacto
-
-Proyecto realizado por **[Tu Nombre]**.
-
-📧 Puedes contactarme para feedback o colaboraciones:  
-[Tu LinkedIn o tu correo aquí]
+## 📎 Archivos
+- `AluraStoreLatam.ipynb`: Notebook con todo el análisis
+- `README.md`: Este archivo
 
 ---
 
